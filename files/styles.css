@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.left-side {
+    margin-left: 12px;
+}
+.right-side {
+    display: flex;
+    margin-right: 12px;
+    gap: 12px;
+    color: white;
+    align-items: center;
+    font-size: 12px;
+}
+
+
+h1 {
+    color: white;
+    font-size: 18px;
+    align-self: center;
+}
