@@ -33,7 +33,7 @@ h1 {
     color: white;
     justify-content: space-around;
     align-items: center;
-    height: 400px;
+    height: 375px;
 }
 
 button {
@@ -56,7 +56,7 @@ button {
     padding-left: 12px;
     width: 45%;
     height: 300px;
-    border: 3px blue solid;
+    /* border: 3px blue solid; */
 }
 
 .main-h1 {
@@ -85,6 +85,7 @@ p {
     align-items: center;
     gap: 16px;
     width: 100%;
+    padding-bottom: 25px;
 }
 
 h2 {
@@ -122,4 +123,32 @@ h2 {
     border: 3px rgb(0, 128, 255) solid;
     justify-content: center;
     align-items: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 750px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.signature {
+    display: flex;
+    align-self: flex-end;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    margin-right: 100px;
+    
 }
